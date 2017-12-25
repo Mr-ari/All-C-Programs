@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+
+{
+	
+	int i,j,k;
+	
+	for(i=1;i<6;i++)
+	{
+		for(k=1;k<=i-1;k++)
+		{
+			printf(" ");
+		}
+		
+		for(j=5;j>=i;i--)
+		{
+			printf("*");
+		}
+		
+		printf("\n");
+	}
+	
+	return 0;
+	
+}
