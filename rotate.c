@@ -1,3 +1,6 @@
+/*
+shifts the element of array by k times in a array 
+*/
 #include<stdio.h>
 #include<conio.h>
 #include<malloc.h>
